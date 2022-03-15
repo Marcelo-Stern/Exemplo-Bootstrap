@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/bootstrap-5.1.0-dist/css/bootstrap.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="bootstrap/bootstrap-5.1.0-dist/js/bootstrap.bundle.js"></script>
+		<title>Exemplo Bootstrap</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="img/crunchyroll.jpg" alt="" width="30" height="24">
+					Crunchyroll
+				</a>
+			</div>
+		</nav>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<div class="collapse navbar-collapse" id="navbarScroll">
+					<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Animes
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+								<li><a class="dropdown-item" href="C:/Users/a22222/Downloads/revis-o_pw-main/revis-o_pw-main/index.html">Em alta</a></li>
+								<li><a class="dropdown-item" href="#">Recomendados</a></li>
+								<li><hr class="dropdown-divider"></li>
+								<li><a class="dropdown-item" href="#">Something else here</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active">Assinaturas</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container espaco">
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="img/onepiece.jpg" width="640" height="384">
+					<h1 class="espaco">
+						One Piece
+					</h1>
+					<h6 class="espaco">
+						Há muito tempo, o infame Gol D. Roger era o pirata mais forte e poderoso dos mares. Quando estava prestes a ser executado, ele revelou que escondeu toda a sua riqueza, incluindo o lendário tesouro conhecido como One Piece, em uma ilha no final da Grand Line, um mar traiçoeiro e verdadeiramente imprevisível. Monkey D. Luffy é um jovem espirituoso, enérgico e um tanto estúpido com um grande sonho: encontrar One Piece e se tornar o Rei dos Piratas! No entanto, Luffy não é um menino comum, já que quando era mais jovem, ele comeu uma das Frutas do Diabo e ganhou seu poder para se tornar um Homem de Borracha. Agora, nesta grande era de piratas, Luffy se propõe a reunir uma tripulação e navegar até o mar mais perigoso do mundo para que possa realizar seu sonho... E talvez até seu apetite!
+					</h6>
+				</div>
+				<div class="col-lg-6">
+					<h1 class="espaco">
+						Recomendados:
+					</h1>
+					<div class="accordion" id="accordionExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="headingOne">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Nanatsu no Taizai
+								</button>
+							</h2>
+						<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Os "Sete Pecados Capitais", um grupo maligno de cavaleiros que conspiram para derrubar o reino de Britânia, supostamente foram erradicados pelos Cavaleiros Divinos, emboram ainda existam rumores de que eles estão vivos. Dez anos depois, os Cavaleiros Divinos realizaram um golpe de estado e assassinaram o rei, se tornando os novos e tiranos governantes do reino. Elizabeth, a única filha do rei,sai em uma jornada para encontrar os "Sete Pecados Capitais", e recrutá-los para que possam ajudar a tomar o reino de volta. 
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingTwo">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								One Punch Man
+							</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Nesta nova comédia de ação, tudo sobre o jovem chamado Saitama parece ser "NA MÉDIA", desde sua expressão sem vida, sua cabeça careca e seu físico nada impressionante. No entanto, esse cara que parece normal não tem seu problema normal... Na verdade ele é um super-herói que está procurando oponentes poderosos! O problema é que toda vez que encontra um candidato promissor, ele acaba com sua raça em apenas um soco. Será que Saitama conseguirá finalmente encontrar um vilão forte o bastante para desafiá-lo? Siga Saitama em suas bagunças hilárias enquanto busca por malvados para desafiar.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingThree">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Tokyo Ghoul
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Tóquio se tornou uma cidade cruel e impiedosa, um lugar onde criaturas cruéis chamadas 'ghouls" coexistem com os humanos. Os cidadãos desta outrora grande metrópole vivem em constante medo desses selvagens sanguinários e de sua sede por carne humana. No entanto, a maior ameaça que esses carniçais representam é a perigosa habilidade de se disfarçarem de humanos e se misturarem à sociedade. Ken Kaneki, um estudante universitário tímido e estudioso, que é imediatamente atraído por Rize Kamishiro, um leitor ávido como ele. No entanto, Rize não é exatamente quem parece, e esse encontro infeliz empurra Kaneki para as profundezas escuras do mundo desumano dos ghouls. Em uma reviravolta do destino, Kaneki é salvo pela enigmática garçonete Touka Kirishima, e assim começa sua nova vida secreta como um meio-ghoul/meio-humano que deve encontrar uma maneira de se integrar em ambas as sociedades.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="heading">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">
+								Violet Evergarden
+							</button>
+						</h2>
+						<div id="collapse" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								A Grande Guerra finalmente chegou ao fim depois de quatro longos anos de conflito; fraturado em dois, o continente de Telesis lentamente começou a florescer mais uma vez. Apanhada no banho de sangue estava Violet Evergarden, uma jovem criada com o único propósito de dizimar linhas inimigas. Hospitalizada e mutilada em uma escaramuça sangrenta durante a perna final da Guerra, ela ficou com apenas palavras da pessoa que ela mais amava, mas sem entender o seu significado. Recuperando-se de suas feridas, Violet começa uma nova vida trabalhando na CH Postal Services após uma briga com sua nova família de guardiões. Lá, ela testemunha por puro acaso o trabalho de um "Auto Memory Doll", amanuenses que transcrevem pensamentos e sentimentos das pessoas em palvras no papel. Movida pela noção, Violet começa a trabalhar como uma Auto Memory Doll, um negócio que a levará a uma aventura, que irá remodelar a vida de seus clientes e, esperamos, levar à autodescoberta.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
